@@ -1,3 +1,8 @@
+
+p{
+    margin: none;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
@@ -64,6 +69,7 @@ button {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;
+    margin-top: 10px;
 }
 
 button:active {
@@ -77,9 +83,26 @@ button:active {
 }
 
 .resultado{
-    color: #0A81D1;
+    color: #FF416C;
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 5px;
+    margin: 5px 0;
     display: none;
+}
+
+#met{
+    font-size: 15px;
+    margin: 5px 0;
+    display: none;
+}
+
+#metodo{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0;
+    display: none;
+}
+
+.explica{
+    margin-bottom: 25px;
 }
